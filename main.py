@@ -1,9 +1,6 @@
 import asyncio
 import os
 import sys
-import uvloop
-
-asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 
 env_vars = {}
 if os.path.isfile('.device'):
